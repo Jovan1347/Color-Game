@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Color Guess</title>
+</head>
+
+<body>
+
+    <section class="main">
+
+        <div class="home-page">
+            <div class="game-info">
+                <div class="player-info">
+                    <p class="player-name">Player Name: </p>
+                    <input class="player-input" type="text">
+                    <button class="name-button">OK</button>
+                </div>
+                <div class="color-name">
+                    <p id="color"></p>
+                </div>
+                <div class="pick-color">
+                    <button class="new-color-button">NEW COLOR</button>
+                    <div class="pick-rgb">RGB</div>
+                    <div class="pick-hexa">HEXA</div>
+                </div>
+            </div>
+            <div class="game-play">
+                <div class="column1">
+                    <div class="color-box box1"></div>
+                    <div class="color-box box2"></div>
+                    <div class="color-box box3"></div>
+                </div>
+                <div class="column2">
+                    <div class="color-box box4"></div>
+                    <div class="color-box box5"></div>
+                    <div class="color-box box6"></div>
+                </div>
+            </div>
+            <div class="game-score">
+                <p>SCOREBOARD</p>
+                <table class="scoreboard" border="1">
+                    <tbody>
+                        <tr class="row-name">
+                            <th class="table-name">NAME: </th>
+                            <td class="scoreboard-item"></td>
+                            <td class="scoreboard-item"></td>
+                            <td class="scoreboard-item"></td>
+                            <td class="scoreboard-item"></td>
+                            <td class="scoreboard-item"></td>
+                            <td class="scoreboard-item"></td>
+                            <td class="scoreboard-item"></td>
+                            <td class="scoreboard-item"></td>
+                            <td class="scoreboard-item"></td>
+                            <td class="scoreboard-item"></td>
+                        </tr>
+                        <tr class="row-score">
+                            <th class="table-score">SCORE: </th>
+                            <td class="scoreboard-item"></td>
+                            <td class="scoreboard-item"></td>
+                            <td class="scoreboard-item"></td>
+                            <td class="scoreboard-item"></td>
+                            <td class="scoreboard-item"></td>
+                            <td class="scoreboard-item"></td>
+                            <td class="scoreboard-item"></td>
+                            <td class="scoreboard-item"></td>
+                            <td class="scoreboard-item"></td>
+                            <td class="scoreboard-item"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="new-game">
+                <div>
+                    <p class="final-score">YOUR SCORE IS: </p>
+                </div>
+                <button class="play-again">PLAY AGAIN</button>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="./root/script.js"></script>
+</body>
+
+</html>
